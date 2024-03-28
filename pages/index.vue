@@ -8,8 +8,9 @@
 </template>
 
 <script setup>
-  const {$sayHello} = useNuxtApp()
-  $sayHello("Ma  n")
+  // definePageMeta({
+  //   middleware: 'auth'
+  // })
 </script>
 
 <style lang="scss" scoped>
