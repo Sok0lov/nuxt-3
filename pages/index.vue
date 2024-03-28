@@ -4,6 +4,7 @@
 <!--    <Profile/>-->
     Main Page
     <IconsBell />
+    <ContentDoc/>
   </div>
 </template>
 
