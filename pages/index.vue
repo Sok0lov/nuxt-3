@@ -8,9 +8,8 @@
 </template>
 
 <script setup>
-
-  const { sayHello } = useUtils();
-  sayHello();
+  const {$sayHello} = useNuxtApp()
+  $sayHello("Ma  n")
 </script>
 
 <style lang="scss" scoped>
